@@ -1,53 +1,168 @@
-# UTS Digital Blueprint - Project Roadmap
-
-This roadmap outlines the phased development of the Universal Techno Services (UTS) digital platform.
+# UTS Enterprise Roadmap
 
 ---
 
-## Phase 1: Foundation & Governance (Current)
-*Goal: Establish clean project structure, version control, rules, and initial configuration.*
-- [x] Link Git workspace with GitHub repository.
-- [x] Standardize documentation directory (`docs/`).
-- [ ] Initialize Next.js 15 App Router codebase.
-- [ ] Configure ESLint, Prettier, and TypeScript compiler options.
-- [ ] Integrate Tailwind CSS, Tailwind utilities, and `shadcn/ui` base.
+# Phase 1
+
+Project Foundation
+
+Duration
+
+1 Week
+
+Deliverables
+
+- Repository
+- Documentation
+- Planning
+- Brand Guidelines
+- Architecture
+
+Status
+
+🟢 Active
 
 ---
 
-## Phase 2: Design System & Core Layouts
-*Goal: Create a premium, responsive industrial-grade visual framework.*
-- [ ] Design and implement the primary theme (Navy blue, steel gray, white, safety orange).
-- [ ] Create core layout templates (Header, Navigation, Footer, Mobile Drawer).
-- [ ] Implement smooth Framer Motion and GSAP transitions.
-- [ ] Establish reusable UI building blocks (Buttons, Cards, Forms, Modals).
+# Phase 2
+
+Business Documentation
+
+- Company Profile
+- History
+- Vision
+- Mission
+- Values
+- Owner Profile
+- SWOT
+- Competitors
 
 ---
 
-## Phase 3: Product Catalog & Company Pages
-*Goal: Showcase the core business products and establish credibility.*
-- [ ] Develop landing page (Hero, value proposition, client list, featured products, CTA).
-- [ ] Build product category pages:
-  - Safety Relief Valves & Industrial Valves
-  - Pressure Equipment
-  - Agriculture Equipment
-  - Construction Chemicals
-- [ ] Create About Us (Jamshedpur roots, Rajesh Kumar Rai, established 2013, quality certificates).
-- [ ] Set up interactive catalog with search, filtering, and detailed product spec sheets.
+# Phase 3
+
+Website Planning
+
+- Sitemap
+- Wireframes
+- Navigation
+- User Journey
+- Mobile Design
+- Desktop Design
 
 ---
 
-## Phase 4: Lead Generation & SEO Excellence
-*Goal: Maximize organic traffic and convert visitors into business inquiries.*
-- [ ] Integrate Open SEO and customize metadata/structured schema markup for all pages.
-- [ ] Implement lead capture forms with email/database notifications.
-- [ ] Optimize loading speeds (Core Web Vitals) for maximum conversion.
-- [ ] Create a dynamic RFQ (Request for Quote) shopping-cart style list.
+# Phase 4
+
+UI Design
+
+- Components
+- Colors
+- Typography
+- Animations
+- Icons
+- Cards
+- Buttons
 
 ---
 
-## Phase 5: Client Portal & Enterprise Integrations (Future)
-*Goal: Scale capabilities for long-term customer success.*
-- [ ] Build Dealer/Customer Portal for secure orders.
-- [ ] Integrate inventory with ERP/CRM.
-- [ ] Embed AI Chatbot helper for product queries.
-- [ ] Add multilingual support (Hindi, English, etc.) for local and global outreach.
+# Phase 5
+
+Content
+
+- Home
+- About
+- Products
+- Brands
+- Customers
+- Downloads
+- Blog
+- FAQ
+
+---
+
+# Phase 6
+
+SEO
+
+- Keyword Research
+- Open SEO
+- Schema
+- Metadata
+- Local SEO
+- Blog Strategy
+
+---
+
+# Phase 7
+
+Development
+
+- Next.js
+- TypeScript
+- Tailwind
+- GSAP
+- Framer Motion
+- Responsive
+
+---
+
+# Phase 8
+
+Testing
+
+Accessibility
+
+SEO
+
+Performance
+
+Cross Browser
+
+Responsive
+
+Security
+
+---
+
+# Phase 9
+
+Deployment
+
+Production
+
+Google Search Console
+
+Analytics
+
+Sitemap
+
+Robots
+
+Cloudflare
+
+Monitoring
+
+---
+
+# Phase 10
+
+Future
+
+Customer Portal
+
+Dealer Portal
+
+Inventory
+
+ERP
+
+CRM
+
+Quotation System
+
+AI Assistant
+
+Voice Search
+
+Image Search

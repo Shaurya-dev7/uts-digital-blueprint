@@ -1,52 +1,210 @@
-# Universal Techno Services (UTS) - Project Rules
+# Project Rules
 
-## Vision
-Build an enterprise-grade industrial website that is modern, premium, scalable, SEO-first, and optimized for lead generation.
+---
 
-## Core Principles
-- Mobile-first responsive design
-- Performance first (Core Web Vitals)
-- Accessibility (WCAG AA)
-- SEO by default
-- Reusable components
-- Clean TypeScript
-- Production-ready code
+# Philosophy
 
-## Tech Stack
-- Next.js 15
-- React
-- TypeScript
-- Tailwind CSS
-- shadcn/ui
-- Framer Motion
-- GSAP
-- Open SEO
-- Vercel
+Build once.
 
-## UI Rules
-- Navy, steel gray, white, safety orange palette
-- Consistent spacing
-- Smooth animations only where they add value
-- Industrial, premium appearance
-- Avoid clutter
+Build correctly.
 
-## SEO Rules
-- Every page has unique title and description
-- JSON-LD structured data
-- Canonical URLs
-- Optimized images with alt text
-- Internal linking
-- Sitemap and robots.txt
+Build for the next 10 years.
 
-## Code Standards
-- Strict TypeScript
-- Modular architecture
-- No duplicated components
-- Meaningful naming
-- Document public APIs
+Every decision should improve
 
-## Content Rules
-- Professional engineering tone
-- Accurate product information
-- No exaggerated claims
-- Strong calls to action
+- Maintainability
+- Performance
+- Accessibility
+- SEO
+- User Experience
+- Scalability
+
+---
+
+# UI Rules
+
+Always
+
+- Mobile First
+- Responsive
+- Accessible
+- Fast
+
+Never
+
+- Clutter pages
+- Overuse animations
+- Use inconsistent spacing
+- Mix design styles
+
+---
+
+# Color Rules
+
+Primary
+
+Navy
+
+Secondary
+
+Steel Gray
+
+Accent
+
+Safety Orange
+
+Background
+
+White
+
+Dark
+
+Charcoal
+
+---
+
+# Typography
+
+Headings
+
+Modern Sans
+
+Body
+
+Readable Sans
+
+Maximum Width
+
+70-80 characters
+
+---
+
+# Animations
+
+Use only meaningful animations.
+
+Preferred
+
+Framer Motion
+
+GSAP
+
+Avoid
+
+Heavy particle effects
+
+Long loading animations
+
+Blocking animations
+
+---
+
+# SEO Rules
+
+Every page must include
+
+Title
+
+Description
+
+Canonical URL
+
+OpenGraph
+
+Twitter Cards
+
+JSON-LD
+
+Schema
+
+Breadcrumb
+
+Alt Text
+
+Lazy Images
+
+Internal Links
+
+---
+
+# Code Standards
+
+Strict TypeScript
+
+Reusable Components
+
+Feature-based Architecture
+
+No duplicated logic
+
+Document exported functions
+
+Meaningful variable names
+
+---
+
+# Performance Goals
+
+Lighthouse
+
+Performance
+
+100
+
+Accessibility
+
+100
+
+SEO
+
+100
+
+Best Practices
+
+100
+
+---
+
+# Accessibility
+
+WCAG AA
+
+Keyboard Navigation
+
+ARIA Labels
+
+Contrast Ratio
+
+Reduced Motion Support
+
+Screen Reader Friendly
+
+---
+
+# Content Rules
+
+Professional
+
+Clear
+
+Simple
+
+No fake claims
+
+No keyword stuffing
+
+Industry accurate
+
+---
+
+# Documentation Rules
+
+Every component documented.
+
+Every decision documented.
+
+Every API documented.
+
+Every folder explained.
+
+Every feature tracked.
