@@ -1,0 +1,607 @@
+﻿[
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\app\\(catalog)\\products\\[slug]\\page.tsx",
+        "LineNumber":  231,
+        "Line":  "                  imagePlaceholder={p.images[0]?.url || \"/images/hero-bg.jpg\"}"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\app\\(catalog)\\products\\ProductCatalogClient.tsx",
+        "LineNumber":  162,
+        "Line":  "                  imagePlaceholder={product.images.find(img =\u003e img.isPrimary)?.url || product.images[0]?.url || \"/images/hero-bg.jpg\"}"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\app\\about\\page.tsx",
+        "LineNumber":  27,
+        "Line":  "    images: [\"/images/hero-bg.jpg\"],"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\app\\layout.tsx",
+        "LineNumber":  36,
+        "Line":  "    shortcut: \"/favicon-16x16.png\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\app\\layout.tsx",
+        "LineNumber":  37,
+        "Line":  "    apple: \"/apple-touch-icon.png\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\app\\layout.tsx",
+        "LineNumber":  85,
+        "Line":  "    \"image\": \"https://www.utsjamshedpur.com/logo.png\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\animations\\ParallaxImage.tsx",
+        "LineNumber":  52,
+        "Line":  "      \u003cimg"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\cards\\BrandCard.tsx",
+        "LineNumber":  33,
+        "Line":  "          \u003cimg "
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\cards\\CustomerCard.tsx",
+        "LineNumber":  29,
+        "Line":  "          \u003cimg "
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\about\\AboutHero.tsx",
+        "LineNumber":  13,
+        "Line":  "        style={{ backgroundImage: \u0027url(/images/hero-bg.jpg)\u0027 }}"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\about\\FounderSection.tsx",
+        "LineNumber":  25,
+        "Line":  "                style={{ backgroundImage: \u0027url(https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format\u0026fit=crop\u0026q=80)\u0027 }} "
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\about\\InfrastructureSection.tsx",
+        "LineNumber":  8,
+        "Line":  "    image: \"/images/placeholder-office.jpg\""
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\about\\InfrastructureSection.tsx",
+        "LineNumber":  13,
+        "Line":  "    image: \"/images/placeholder-warehouse.jpg\""
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\about\\InfrastructureSection.tsx",
+        "LineNumber":  18,
+        "Line":  "    image: \"/images/placeholder-distribution.jpg\""
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\about\\InfrastructureSection.tsx",
+        "LineNumber":  23,
+        "Line":  "    image: \"/images/placeholder-service.jpg\""
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\about\\QualityCommitment.tsx",
+        "LineNumber":  22,
+        "Line":  "                style={{ backgroundImage: \u0027url(/images/placeholder-quality.jpg)\u0027 }} "
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\brands\\IndividualBrandHero.tsx",
+        "LineNumber":  21,
+        "Line":  "              \u003cimg "
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\AboutSection.tsx",
+        "LineNumber":  16,
+        "Line":  "                style={{ backgroundImage: \u0027url(/images/about-industrial.jpg)\u0027 }} "
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\BlogPreviewSection.tsx",
+        "LineNumber":  10,
+        "Line":  "    { title: \"Essential Guide to Industrial Safety Valves\", date: \"Oct 12, 2024\", category: \"Industrial Safety\", img: \"/images/product-valve.jpg\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\BlogPreviewSection.tsx",
+        "LineNumber":  11,
+        "Line":  "    { title: \"Choosing the Right Construction Chemicals\", date: \"Sep 28, 2024\", category: \"Construction\", img: \"/images/product-epoxy.png\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\BlogPreviewSection.tsx",
+        "LineNumber":  12,
+        "Line":  "    { title: \"Maintenance Tips for Rotary Tillers\", date: \"Sep 15, 2024\", category: \"Agriculture\", img: \"/images/product-tiller.png\" }"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\BrandsSection.tsx",
+        "LineNumber":  8,
+        "Line":  "    { name: \"FESTO\", src: \"https://placehold.co/400x200/f8fafc/0f172a.png?text=FESTO\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\BrandsSection.tsx",
+        "LineNumber":  9,
+        "Line":  "    { name: \"SMC\", src: \"https://placehold.co/400x200/f8fafc/0f172a.png?text=SMC\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\BrandsSection.tsx",
+        "LineNumber":  10,
+        "Line":  "    { name: \"Forbes Marshall\", src: \"https://placehold.co/400x200/f8fafc/0f172a.png?text=Forbes+Marshall\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\BrandsSection.tsx",
+        "LineNumber":  11,
+        "Line":  "    { name: \"L\u0026T\", src: \"https://placehold.co/400x200/f8fafc/0f172a.png?text=L%26T\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\BrandsSection.tsx",
+        "LineNumber":  12,
+        "Line":  "    { name: \"Bosch\", src: \"https://placehold.co/400x200/f8fafc/0f172a.png?text=Bosch\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\BrandsSection.tsx",
+        "LineNumber":  13,
+        "Line":  "    { name: \"Danfoss\", src: \"https://placehold.co/400x200/f8fafc/0f172a.png?text=Danfoss\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\BrandsSection.tsx",
+        "LineNumber":  14,
+        "Line":  "    { name: \"WIKA\", src: \"https://placehold.co/400x200/f8fafc/0f172a.png?text=WIKA\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\BrandsSection.tsx",
+        "LineNumber":  15,
+        "Line":  "    { name: \"Kirloskar\", src: \"https://placehold.co/400x200/f8fafc/0f172a.png?text=Kirloskar\" }"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\BrandsSection.tsx",
+        "LineNumber":  32,
+        "Line":  "              \u003cimg src={brand.src} alt={brand.name} className=\"w-full h-full object-contain\" onError={(e) =\u003e { e.currentTarget.style.display = \u0027none\u0027; e.currentTarget.parentElement!.innerHTML = `\u003cspan class=\"text-xl font-bold text-gray-400 hover:text-navy transition-colors\"\u003e${brand.name}\u003c/span\u003e` }} /\u003e"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\CategorySection.tsx",
+        "LineNumber":  12,
+        "Line":  "      img: \"/images/product-valve.jpg\""
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\CategorySection.tsx",
+        "LineNumber":  18,
+        "Line":  "      img: \"/images/product-actuator.png\""
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\CategorySection.tsx",
+        "LineNumber":  24,
+        "Line":  "      img: \"/images/product-pump.jpg\""
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\CategorySection.tsx",
+        "LineNumber":  30,
+        "Line":  "      img: \"/images/product-epoxy.png\""
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\FeaturedProductsSection.tsx",
+        "LineNumber":  8,
+        "Line":  "    { name: \"Safety Relief Valve Model 400\", category: \"Valves\", description: \"High-capacity spring loaded safety valve for boiler applications.\", img: \"/images/product-valve.jpg\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\FeaturedProductsSection.tsx",
+        "LineNumber":  9,
+        "Line":  "    { name: \"Pressure Reducing Station\", category: \"Pressure Equipment\", description: \"Complete pre-assembled skid for precise steam pressure reduction.\", img: \"/images/product-prs.jpg\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\FeaturedProductsSection.tsx",
+        "LineNumber":  10,
+        "Line":  "    { name: \"Centrifugal Process Pump\", category: \"Pumps\", description: \"Heavy-duty pump for corrosive and high-temperature liquids.\", img: \"/images/product-pump.jpg\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\FeaturedProductsSection.tsx",
+        "LineNumber":  11,
+        "Line":  "    { name: \"Epoxy Grouting Chemical\", category: \"Chemicals\", description: \"High-strength epoxy resin for heavy machinery foundations.\", img: \"/images/product-epoxy.png\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\FeaturedProductsSection.tsx",
+        "LineNumber":  12,
+        "Line":  "    { name: \"Pneumatic Actuator\", category: \"Automation\", description: \"Rotary pneumatic actuator for quarter-turn industrial valves.\", img: \"/images/product-actuator.png\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\FeaturedProductsSection.tsx",
+        "LineNumber":  13,
+        "Line":  "    { name: \"Rotary Tiller\", category: \"Agriculture\", description: \"Tractor mounted rotary tiller for efficient seedbed preparation.\", img: \"/images/product-tiller.png\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\FeaturedProductsSection.tsx",
+        "LineNumber":  14,
+        "Line":  "    { name: \"Industrial Fasteners SS316\", category: \"Hardware\", description: \"Marine grade stainless steel hex bolts and nuts.\", img: \"/images/product-fasteners.png\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\FeaturedProductsSection.tsx",
+        "LineNumber":  15,
+        "Line":  "    { name: \"Digital Pressure Gauge\", category: \"Instrumentation\", description: \"High-accuracy digital gauge with data logging capabilities.\", img: \"/images/product-gauge.jpg\" }"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\GallerySection.tsx",
+        "LineNumber":  19,
+        "Line":  "            { id: 1, src: \u0027/images/gallery-2.jpg\u0027 },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\GallerySection.tsx",
+        "LineNumber":  20,
+        "Line":  "            { id: 2, src: \u0027/images/gallery-3.jpg\u0027 },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\GallerySection.tsx",
+        "LineNumber":  21,
+        "Line":  "            { id: 3, src: \u0027/images/gallery-4.jpg\u0027 },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\GallerySection.tsx",
+        "LineNumber":  22,
+        "Line":  "            { id: 4, src: \u0027/images/gallery-5.jpg\u0027 },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\GallerySection.tsx",
+        "LineNumber":  23,
+        "Line":  "            { id: 5, src: \u0027/images/about-industrial.jpg\u0027 }"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\HeroSection.tsx",
+        "LineNumber":  48,
+        "Line":  "          style={{ backgroundImage: \u0027url(/images/hero-bg.jpg)\u0027 }} "
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\IndustrySection.tsx",
+        "LineNumber":  8,
+        "Line":  "    { title: \"Steel Plants\", img: \"/images/hero-bg.jpg\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\IndustrySection.tsx",
+        "LineNumber":  9,
+        "Line":  "    { title: \"Mining\", img: \"/images/gallery-2.jpg\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\IndustrySection.tsx",
+        "LineNumber":  10,
+        "Line":  "    { title: \"Power Generation\", img: \"/images/product-prs.jpg\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\IndustrySection.tsx",
+        "LineNumber":  11,
+        "Line":  "    { title: \"Construction\", img: \"/images/about-industrial.jpg\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\IndustrySection.tsx",
+        "LineNumber":  12,
+        "Line":  "    { title: \"Agriculture\", img: \"/images/product-tiller.png\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\IndustrySection.tsx",
+        "LineNumber":  13,
+        "Line":  "    { title: \"Railways\", img: \"/images/gallery-3.jpg\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\IndustrySection.tsx",
+        "LineNumber":  14,
+        "Line":  "    { title: \"Oil \u0026 Gas\", img: \"/images/product-valve.jpg\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\IndustrySection.tsx",
+        "LineNumber":  15,
+        "Line":  "    { title: \"Infrastructure\", img: \"/images/gallery-4.jpg\" }"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\TrustedBySection.tsx",
+        "LineNumber":  6,
+        "Line":  "    { name: \"Tata Steel\", src: \"https://placehold.co/400x200/f8fafc/0f172a.png?text=Tata+Steel\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\TrustedBySection.tsx",
+        "LineNumber":  7,
+        "Line":  "    { name: \"Indian Railways\", src: \"https://placehold.co/400x200/f8fafc/0f172a.png?text=Indian+Railways\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\TrustedBySection.tsx",
+        "LineNumber":  8,
+        "Line":  "    { name: \"Rungta Mines\", src: \"https://placehold.co/400x200/f8fafc/0f172a.png?text=Rungta+Mines\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\TrustedBySection.tsx",
+        "LineNumber":  9,
+        "Line":  "    { name: \"Jamna Auto\", src: \"https://placehold.co/400x200/f8fafc/0f172a.png?text=Jamna+Auto\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\TrustedBySection.tsx",
+        "LineNumber":  10,
+        "Line":  "    { name: \"Tata Bluescope\", src: \"https://placehold.co/400x200/f8fafc/0f172a.png?text=Tata+Bluescope\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\TrustedBySection.tsx",
+        "LineNumber":  11,
+        "Line":  "    { name: \"Larsen \u0026 Toubro\", src: \"https://placehold.co/400x200/f8fafc/0f172a.png?text=Larsen+%26+Toubro\" },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\sections\\TrustedBySection.tsx",
+        "LineNumber":  12,
+        "Line":  "    { name: \"Jindal Steel\", src: \"https://placehold.co/400x200/f8fafc/0f172a.png?text=Jindal+Steel\" }"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\components\\ui\\LogoMarquee.tsx",
+        "LineNumber":  33,
+        "Line":  "        \u003cimg "
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\config\\site.ts",
+        "LineNumber":  6,
+        "Line":  "  ogImage: \"https://uts.example.com/og.jpg\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\data\\mockProducts.ts",
+        "LineNumber":  27,
+        "Line":  "      { url: \"/images/product-valve.jpg\", alt: \"Safety Relief Valve Front View\", isPrimary: true },"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\data\\mockProducts.ts",
+        "LineNumber":  28,
+        "Line":  "      { url: \"/images/product-prs.jpg\", alt: \"Safety Relief Valve Side View\" }"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\data\\mockProducts.ts",
+        "LineNumber":  68,
+        "Line":  "      { url: \"/images/product-actuator.png\", alt: \"Pneumatic Actuator Front View\", isPrimary: true }"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\data\\mockProducts.ts",
+        "LineNumber":  108,
+        "Line":  "      { url: \"/images/product-pump.jpg\", alt: \"Centrifugal Process Pump\", isPrimary: true }"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\data\\mockProducts.ts",
+        "LineNumber":  148,
+        "Line":  "      { url: \"/images/product-epoxy.png\", alt: \"Epoxy Grout Kit\", isPrimary: true }"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\data\\mockProducts.ts",
+        "LineNumber":  188,
+        "Line":  "      { url: \"/images/product-tiller.png\", alt: \"Rotary Tiller\", isPrimary: true }"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\data\\mockProducts.ts",
+        "LineNumber":  228,
+        "Line":  "      { url: \"/images/product-gauge.jpg\", alt: \"Digital Pressure Gauge\", isPrimary: true }"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\data\\mockProducts.ts",
+        "LineNumber":  270,
+        "Line":  "    { url: i % 2 === 0 ? \"/images/product-valve.jpg\" : \"/images/product-pump.jpg\", alt: \"Industrial Product\", isPrimary: true }"
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  22,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Chembond\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  23,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  36,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=LESER\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  37,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1541888087425-ce81dfc46928?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  50,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=PSS\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  51,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  63,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=FCC\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  64,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1580983546536-4c47285c57aa?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  77,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=ASPEE\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  78,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  91,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=BCH\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  92,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1616422319985-78c460d37e41?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  104,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Rentokil+PCI\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  105,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  117,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Neptune\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  118,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1578507065211-1c4e99a5fd24?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  130,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Balwaan\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  131,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  143,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Kirloskar\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  144,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1621619856624-42fd193a0661?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  157,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Honda\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  158,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  171,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=KSB\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockBrands.ts",
+        "LineNumber":  172,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1507421852026-b844517b620b?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  16,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Tata+Steel\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  17,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  26,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Tata+Steel+UISL\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  27,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1541888087425-ce81dfc46928?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  36,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Tata+BlueScope\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  37,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  46,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Tata+Wire\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  47,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1580983546536-4c47285c57aa?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  56,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Tata+Tinplate\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  57,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  66,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=TSDPL\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  67,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1616422319985-78c460d37e41?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  76,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Indian+Railways\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  77,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  86,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Rungta+Mines\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  87,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1578507065211-1c4e99a5fd24?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  96,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Jamna+Auto\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  97,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  106,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=HRP\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  107,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1621619856624-42fd193a0661?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  116,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Shaha+Sponge\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  117,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format\u0026fit=crop\u0026q=80\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  126,
+        "Line":  "    logoUrl: \"https://placehold.co/400x200/ffffff/0f172a.png?text=Nippon\","
+    },
+    {
+        "Path":  "D:\\Projects\\UTS\\src\\lib\\data\\mockCustomers.ts",
+        "LineNumber":  127,
+        "Line":  "    imageUrl: \"https://images.unsplash.com/photo-1507421852026-b844517b620b?auto=format\u0026fit=crop\u0026q=80\","
+    }
+]

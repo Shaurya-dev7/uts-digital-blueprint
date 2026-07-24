@@ -1,0 +1,289 @@
+// Prisma Schema for UTS Enterprise Auth System
+// Database: PostgreSQL
+// ORM: Prisma with Better Auth adapter
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================
+// BETTER AUTH CORE TABLES
+// These tables are managed by Better Auth
+// ============================================
+
+model User {
+  id            String    @id @default(cuid())
+  name          String
+  email         String    @unique
+  emailVerified Boolean   @default(false)
+  image         String?
+  role          String    @default("customer")
+  banned        Boolean   @default(false)
+  banReason     String?
+  banExpires    DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations to Better Auth tables
+  sessions Session[]
+  accounts Account[]
+
+  // Relations to UTS custom tables
+  profile        Profile?
+  userRoles      UserRole[]
+  loginHistory   LoginHistory[]
+  auditLogs      AuditLog[]
+  userDevices    UserDevice[]
+  userPreference UserPreference?
+  notifications  Notification[]
+
+  @@map("user")
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  userId    String
+  token     String   @unique
+  expiresAt DateTime
+  ipAddress String?
+  userAgent String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("session")
+}
+
+model Account {
+  id                    String    @id @default(cuid())
+  userId                String
+  accountId             String
+  providerId            String
+  accessToken           String?
+  refreshToken          String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  idToken               String?
+  password              String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("account")
+}
+
+model Verification {
+  id         String   @id @default(cuid())
+  identifier String
+  value      String
+  expiresAt  DateTime
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("verification")
+}
+
+// ============================================
+// UTS EXTENDED TABLES
+// Custom business logic tables
+// ============================================
+
+model Profile {
+  id          String  @id @default(cuid())
+  userId      String  @unique
+  phone       String?
+  company     String?
+  designation String?
+  gstNumber   String?
+  dealerCode  String?
+  address     String?
+  city        String?
+  state       String?
+  pincode     String?
+  photoUrl    String?
+
+  phoneVerified Boolean @default(false)
+  lastLogin     DateTime?
+  lastActivity  DateTime?
+  status        String   @default("active") // active, suspended, deactivated
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("profile")
+}
+
+model Role {
+  id          String  @id @default(cuid())
+  name        String  @unique
+  description String?
+  level       Int     @default(0)
+  isSystem    Boolean @default(false)
+  status      String  @default("active")
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  rolePermissions RolePermission[]
+  userRoles       UserRole[]
+
+  @@map("role")
+}
+
+model Permission {
+  id          String  @id @default(cuid())
+  name        String  @unique
+  resource    String
+  action      String
+  description String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  rolePermissions RolePermission[]
+
+  @@map("permission")
+}
+
+model RolePermission {
+  id           String @id @default(cuid())
+  roleId       String
+  permissionId String
+
+  createdAt DateTime @default(now())
+
+  role       Role       @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  permission Permission @relation(fields: [permissionId], references: [id], onDelete: Cascade)
+
+  @@unique([roleId, permissionId])
+  @@map("role_permission")
+}
+
+model UserRole {
+  id        String   @id @default(cuid())
+  userId    String
+  roleId    String
+  assignedBy String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  role Role @relation(fields: [roleId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, roleId])
+  @@map("user_role")
+}
+
+model LoginHistory {
+  id        String @id @default(cuid())
+  userId    String
+  ipAddress String?
+  userAgent String?
+  browser   String?
+  os        String?
+  device    String?
+  location  String?
+  status    String // success, failed, locked, blocked
+
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@map("login_history")
+}
+
+model AuditLog {
+  id         String  @id @default(cuid())
+  userId     String?
+  action     String  // login, logout, password_change, profile_update, role_change, etc.
+  resource   String? // user, role, permission, session, etc.
+  resourceId String?
+  details    String? // JSON string with additional context
+  ipAddress  String?
+  userAgent  String?
+  status     String  @default("success") // success, failure
+
+  createdAt DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId, createdAt])
+  @@index([action, createdAt])
+  @@map("audit_log")
+}
+
+model UserDevice {
+  id         String  @id @default(cuid())
+  userId     String
+  deviceName String?
+  browser    String?
+  os         String?
+  deviceType String? // desktop, mobile, tablet
+  ipAddress  String?
+  isTrusted  Boolean @default(false)
+  lastActive DateTime @default(now())
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_device")
+}
+
+model UserPreference {
+  id     String @id @default(cuid())
+  userId String @unique
+
+  theme                String  @default("system") // light, dark, system
+  language             String  @default("en")
+  emailNotifications   Boolean @default(true)
+  pushNotifications    Boolean @default(false)
+  loginAlerts          Boolean @default(true)
+  newsletterSubscribed Boolean @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_preference")
+}
+
+model Notification {
+  id      String  @id @default(cuid())
+  userId  String
+  title   String
+  message String
+  type    String  @default("info") // info, success, warning, error, security
+  read    Boolean @default(false)
+  link    String?
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, read])
+  @@map("notification")
+}
